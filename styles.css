@@ -1,16 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 body {
     background-color: #F4F4F4;
     font-family: 'proxima_novalight', Arial, sans-serif;
     font-size: 1.1em;
-
+    font-weight: 500;
+    line-height: 1.5em;
+    width: 100%;
 }
+
+a{
+    text-decoration: none;
+    color: #f66666;
+}
+
+a:hover {
+    border-bottom: 2px solid;
+}
+
 h1 {
-    font-family: 'proxima_novalight', Arial, sans-serif;
+    font-family: 'Josefin Slab', Arial, sans-serif;
     font-size: 4em;
     letter-spacing: -.05em;
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -22,8 +37,12 @@ h2 {
     padding-bottom: 15px;
 }
 
-#break {
-
+h3 {
+    font-family: 'proxima_novalight', Arial, sans-serif;
+    letter-spacing: -.05em;
+    margin: auto;
+    text-decoration: none;
+    padding-bottom: 15px;
 }
 
 #navbar {
@@ -36,6 +55,15 @@ h2 {
 #navbar li {
     list-style: none;
     display: inline;
+}
+
+#navbar li:before {
+    content: " / ";
+    color: #666666;
+}
+
+#navbar li:first-child:before {
+    content: none;
 }
 
 #navbar a {
@@ -51,27 +79,24 @@ h2 {
 
 #portfolio {
     text-align: center;
-    background-image: url("bg.jpg");
-    margin-left: -10px;
-    margin-right: -50px;
+    background-image: url("bg2.jpg");
     margin-bottom: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 #about {
     margin: auto;
     text-align: center;
-    width: 1000px;
-
+    width: 950px;
 }
 
-
-#contact {
-}
 
 .headers {
     text-align: center;
     padding-top: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 
@@ -93,9 +118,10 @@ h2 {
     color: #FFF;
     text-align: center;
     display: none;
+    font-size: 21px;
     font-family: "proxima_novalight",sans-serif;
+    font-weight: 200;
 }
-
 
 .ports .works:hover .info{
     display: block;
@@ -114,5 +140,120 @@ h2 {
     font-size: 1.2em;
     text-transform: uppercase;
     font-family: "proxima_novalight",sans-serif;
+}
+
+.skills {
+    display: inline-block;
+    top: 0px;
+}
+
+.skills li{
+    list-style: none;
+}
+
+#bio {
+    width: 900px;
+}
+
+#back {
+    width: 200px;
+}
+
+#front {
+    width: 300px;
+}
+
+.maincat {
+    font-weight: 800;
+}
+
+
+.github {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/github.png");
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+}
+
+.github:hover {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/github.png");
+    opacity: .5;
+}
+
+.pinterest {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/pinterest.png");
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+}
+
+.pinterest:hover {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/pinterest.png");
+    opacity: .5;
+
+}
+.twitter {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/twitternew.png");
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+}
+
+.twitter:hover {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/twitternew.png");
+    opacity: .5;
+
+}
+.linkedin {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/linkedin.png");
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+}
+
+.linkedin:hover {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/linkedin.png");
+    opacity: .5;
+
+}
+.instagram {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/instagram.png");
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+}
+
+.instagram:hover {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/instagram.png");
+    opacity: .5;
+
+}
+.etsy {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/etsy.png");
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+}
+
+.etsy:hover {
+    background-image: url("http://alinaguzman.com/wp-content/uploads/2013/06/etsy.png");
+    opacity: .5;
+
+}
+
+#footer {
+    background-image: url('bg2.jpg');
+    height: 200px;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+.invisibleLink {
+    display: block;
+    left: 55px;
+    top: 55px;
+    position: absolute;
+    height: 55px;
+    width: 55px;
 }
 
