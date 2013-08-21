@@ -158,7 +158,7 @@ h3 {
 }
 
 #bio {
-    width: 900px;
+    width: 750px;
 }
 
 #back {
@@ -249,8 +249,14 @@ h3 {
 
 #footer {
     background-image: url('bg2.jpg');
-    height: 200px;
+    height: 150px;
     margin-bottom: -10px;
     margin-top: 20px;
+    color: #999;
+}
+
+#footer p {
+    padding-top: 80px;
+    margin-left: 50px;
 }
 
