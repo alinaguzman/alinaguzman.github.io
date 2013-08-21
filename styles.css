@@ -127,6 +127,12 @@ h3 {
     display: block;
 }
 
+.ports .works:hover .info p{
+    padding-top: 20px;
+    font-weight: 500;
+    font-family: 'proxima_novalight', Arial, sans-serif;
+}
+
 .ports .works .title{
     background: #222;
     height: 20px;
@@ -246,14 +252,5 @@ h3 {
     height: 200px;
     margin-bottom: -10px;
     margin-top: 20px;
-}
-
-.invisibleLink {
-    display: block;
-    left: 55px;
-    top: 55px;
-    position: absolute;
-    height: 55px;
-    width: 55px;
 }
 
