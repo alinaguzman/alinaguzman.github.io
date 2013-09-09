@@ -48,8 +48,9 @@ h3 {
 #navbar {
     overflow: hidden;
     position: fixed;
-    width: 1450px;
-    text-align: right;
+    width: 300px;
+    margin-left: 50px;
+    text-align: left;
 }
 
 #navbar li {
