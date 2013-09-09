@@ -261,6 +261,22 @@ h3 {
 
 }
 
+.techstack {
+    margin: auto;
+    width: 50%;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #555;
+    opacity: .5;
+    text-align: center;
+    padding: 30px;
+}
+
+.techstack h3 {
+    font-size: 2em;
+    font-family: 'josefin slab', serif;
+}
+
 #footer {
     background-image: url('../images/bg2.jpg');
     height: 150px;
